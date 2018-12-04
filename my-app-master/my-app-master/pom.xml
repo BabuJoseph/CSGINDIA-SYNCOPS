@@ -11,7 +11,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>javax.servlet</groupId>
+			<groupId>javax.servle</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.0.1</version>
 			<!-- <scope>provided</scope> -->
