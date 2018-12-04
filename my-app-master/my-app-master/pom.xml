@@ -53,9 +53,14 @@
             <version>2.19</version>
         </plugin>
         <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
-            <version>3.0.0</version>
-        </plugin>
+       <configuration>
+   
+          <webXml>src\main\webapps\WEB-INF\web.xml</webXml>
+    
+ </configuration>
+</plugin>
     </plugins>
 </build>
 	
